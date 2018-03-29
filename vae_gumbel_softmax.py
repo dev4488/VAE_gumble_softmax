@@ -59,6 +59,7 @@ def gumbel_softmax_sample(logits, temperature):
 
 def gumbel_softmax(logits, temperature):
     """
+    ST-gumple-softmax
     input: [*, n_class]
     return: flatten --> [*, n_class] an one-hot vector
     """
