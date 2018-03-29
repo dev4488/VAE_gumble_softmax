@@ -33,7 +33,6 @@ python vae_gumbel_softmax.py
 ### Hyperparameters
 ```python
 Batch Size:                         128
-Number of Iterations:               50000
 Learning Rate:                      0.0001
 Initial Temperature:                1.0
 Minimum Temperature:                0.5
