@@ -126,7 +126,7 @@ def loss_function(recon_x, x,qy):
 
     log_qy = torch.log(qy+1e-20)
     g = Variable(torch.log(torch.Tensor([1.0/categorical_dim])).cuda())
-    KLD = -torch.sum(qy*(log_qy - g))
+    KLD = torch.sum(qy*(log_qy - g),dim=-1).mean()
 
     return BCE + KLD
 
