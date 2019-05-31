@@ -43,4 +43,4 @@ Learnable Temperature:              False
 ### MNIST
 | Ground Truth/Reconstructions 	    |     Generated Samples	|
 |:--------------------------------: |:-------------------------:|
-|![](results/reconstruction_10.png) | ![](results/sample_10.png)|
+|![](results/reconstruction_40.png) | ![](results/sample_40.png)|
