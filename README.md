@@ -1,4 +1,4 @@
-# VAE with Gumbel-Softmax in pytorch
+# VAE with Gumbel-Softmax in Pytorch
 
 Pytorch implementation of a Variational Autoencoder with Gumbel-Softmax Distribution. Refer to the following paper:
 
