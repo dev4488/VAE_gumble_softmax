@@ -1,6 +1,6 @@
 # VAE with Gumbel-Softmax in pytorch
 
-pytorch implementation of a Variational Autoencoder with Gumbel-Softmax Distribution. Refer to the following paper:
+Pytorch implementation of a Variational Autoencoder with Gumbel-Softmax Distribution. Refer to the following paper:
 
 * [Categorical Reparametrization with Gumbel-Softmax](https://arxiv.org/pdf/1611.01144.pdf) by Jang, Gu and Poole
 
